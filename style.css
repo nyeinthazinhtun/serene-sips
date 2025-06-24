@@ -20,14 +20,18 @@ header h1 {
 header p {
   font-family: "Lato", sans-serif;
 }
-header button {
+header a {
+  font-family: "Lato", sans-serif;
+  display: block;
   width: 200px;
   height: 40px;
+  line-height: 40px;
   background-color: #49281a;
-  color: white;
+  color: #f0e2c5;
+  text-decoration: none;
   border-radius: 5px;
   border: none;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 /*nav section*/
