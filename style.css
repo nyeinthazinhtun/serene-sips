@@ -9,8 +9,29 @@ html {
 }
 header {
   text-align: center;
-  padding: 50px 0;
+  padding: 10px;
 }
+.bg-large {
+  position: absolute;
+  background-image: url(images/download-removebg-preview.png);
+  right: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+}
+.bg-small {
+  position: absolute;
+  background-image: url(images/download1-removebg-preview.png);
+  left: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
 header h1 {
   font-family: "Playfair Display Sc", sans-serif;
   color: #49281a;
@@ -47,7 +68,7 @@ nav ul li {
   border-radius: 5px;
   margin: 10px;
 }
-nav ul li a {
+nav a {
   color: #49281a;
   text-decoration: none;
 }
@@ -65,6 +86,7 @@ nav ul li a {
   font-family: "Playfair Display Sc", sans-serif;
   color: #49281a;
   margin-bottom: 20px;
+  text-align: left;
 }
 .menu-list {
   /*border: 2px solid #000;*/
