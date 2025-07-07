@@ -17,19 +17,19 @@ header {
   right: 100px;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 300px;
-  height: 200px;
-  margin: 20px auto;
+  width: 200px;
+  height: 100px;
+  margin: 20px 30px 0 0;
 }
 .bg-small {
   position: absolute;
   background-image: url(images/download1-removebg-preview.png);
-  left: 100px;
+  left: 200px;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 300px;
-  height: 200px;
-  margin: 20px;
+  width: 200px;
+  height: 100px;
+  margin: 20px 0 0 30px;
 }
 
 header h1 {
@@ -57,19 +57,26 @@ header a {
 
 /*nav section*/
 nav {
+  position: sticky;
+  top: 0;
+  padding: 20px;
   text-align: center;
-  padding: 20px 0;
+  background-color: #49281a;
+  margin: 20px;
+}
+nav ul {
+  background: #49281a;
 }
 nav ul li {
   display: inline-block;
-  border: 1px solid;
+  background-color: #49281a;
   font-family: "Lato", sans-serif;
   padding: 10px 20px;
-  border-radius: 5px;
-  margin: 10px;
+  margin-right: 10px;
 }
-nav a {
-  color: #49281a;
+nav ul li a {
+  background-color: #49281a;
+  color: #f0e2c5;
   text-decoration: none;
 }
 
@@ -78,7 +85,7 @@ nav a {
 #about-us,
 #contact {
   width: 80%;
-  margin: 2 0px auto;
+  margin: 20px auto;
 }
 #menu h2,
 #about-us h2,
@@ -173,4 +180,10 @@ footer {
 }
 footer p {
   font-size: 0.9rem;
+}
+footer a {
+  color: #49281a;
+  right: 10px;
+  position: fixed;
+  bottom: 10px;
 }
